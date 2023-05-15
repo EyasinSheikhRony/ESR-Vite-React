@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;800;900&display=swap');
+
+.typed_text {
+  font-family: 'Poppins', sans-serif;
+}
+
+.profile_pic {
+  border-radius: 45% 55% 35% 65% / 63% 34% 66% 37% ;
+  z-index: -2;
+}

@@ -1,0 +1,17 @@
+.dark_theme {
+  --bg-color: rgba(23, 22, 21, 0.915);
+  --color: white;
+}
+
+.light_theme {
+  --bg-color: white;
+  --color: gray;
+}
+
+body {
+  background-color: var(--bg-color);
+}
+
+h1, h2, h3, h4, h5, p, {
+  color: var(--color);
+}
