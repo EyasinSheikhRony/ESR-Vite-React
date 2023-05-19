@@ -6,11 +6,13 @@ export default function Faqs({ questions, answer }) {
   return (
     <div>
       <div className="">
-        <div className="mt-2 justify-center w-[45%] mx-auto min-w-[300px] px-2">
+        <div className="mt-2 justify-center w-[80%] mx-auto bg-gray-200 px-3 py-2">
           <div className="flex flex-col">
-            <div className="flex justify-between bg-gray-100 p-2">
-              <h1 className="text-xl font-bold text-gray-800">{questions}</h1>
-              <button className="" onClick={() => setShow(!show)}>
+            <div className="flex max-[320px]:w-[310px] justify-between">
+              <h1 className="question text-2xl font-bold text-gray-800 font-serif">
+                {questions}
+              </h1>
+              <button className="faq_btn" onClick={() => setShow(!show)}>
                 {show ? (
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -44,7 +46,7 @@ export default function Faqs({ questions, answer }) {
             </div>
           </div>
           {show && (
-            <p className="answer bg-gray-100 pt-8 text-gray-600 px-3 py-2 font-bold">
+            <p className="mt-6 answer bg-slate-600 text-white px-3 py-2 font-medium">
               {answer}
             </p>
           )}

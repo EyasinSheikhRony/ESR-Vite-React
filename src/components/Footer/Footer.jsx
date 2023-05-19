@@ -4,6 +4,9 @@ let full_date = new Date();
 let year = full_date.getFullYear();
 
 const Footer = () => {
+  const goBtn = () => {
+    window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
+  };
   return (
     <div className="bg-[#1C3C68] text-white flex-wrap flex">
       <div className="flex flex-wrap justify-between pt-10 h-auto w-[80%] max-[425px]:w-[100%] max-[425px]:ml-10 max-[768px]: mx-auto">
@@ -13,27 +16,27 @@ const Footer = () => {
           <hr className="mb-6" />
           <div className="flex">
             <div className="flex flex-col contact text-sm mr-4">
-              <a href="home" className="mb-1">
+              <a href="/" className="mb-1">
                 Home
               </a>
-              <a href="terms" className="mb-1">
+              <a href="notf" className="mb-1">
                 Terms
               </a>
-              <a href="talent_culture">Talent & Culture</a>
+              <a href="notf">Talent & Culture</a>
             </div>
             <div className="flex flex-col contact text-sm">
-              <a href="refund_policy" className="mb-1">
+              <a href="notf" className="mb-1">
                 Refund Policy
               </a>
               <a href="faq" className="mb-1">
                 FAQ
               </a>
-              <a href="privacy_policy">Privacy Policy</a>
+              <a href="notf">Privacy Policy</a>
             </div>
           </div>
         </div>
         {/* payment method  */}
-        <div className="mr-0 mt-6 lg:mt-0">
+        <div className="mr-0 mt-6 min-[580px]:mt-0 lg:mt-0">
           <h1 className="mb-1 font-bold font-sans text-2xl">Payment Methods</h1>
           <hr className="mb-6" />
           <div className="flex flex-wrap">
@@ -95,7 +98,7 @@ const Footer = () => {
           </div>
         </div>
         {/* contact  */}
-        <div className="mt-6 mr-16 lg:mt-0">
+        <div className="mt-6 min-[900px]:mt-0 mr-16 lg:mt-0">
           <h1 className="mb-1 font-bold font-sans text-2xl">Contact</h1>
           <hr className="mb-6" />
           <div className="contact text-sm">
@@ -116,7 +119,7 @@ const Footer = () => {
           </div>
         </div>
         {/* follow us  */}
-        <div className="mt-6 xl:mt-0">
+        <div className="mt-6 min-[1100px]:mt-0 xl:mt-0">
           <h1 className="mb-1 font-bold font-sans text-2xl">Follow US</h1>
           <hr className="mb-5" />
           <div className="flex gap-2">
@@ -153,26 +156,26 @@ const Footer = () => {
               />
             </a>
           </div>
-          <div className="mt-12 flex justify-end">
-            <a href="/" className="animate-bounce">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke-width="1.5"
-                stroke="currentColor"
-                className="w-8 h-8 p-1 bg-slate-600">
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  d="M4.5 15.75l7.5-7.5 7.5 7.5"
-                />
-              </svg>
-            </a>
-          </div>
         </div>
       </div>
-      <hr className="w-[80%] mx-auto mt-8" />
+      <div className=" w-[80%] mt-8 mb-2 mx-auto flex justify-end">
+        <button type="submit" className="animate-bounce" onClick={goBtn}>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            className="w-8 h-8 p-1 bg-slate-600">
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M4.5 15.75l7.5-7.5 7.5 7.5"
+            />
+          </svg>
+        </button>
+      </div>
+      <hr className="w-[80%] mx-auto" />
       <div className="flex items-center justify-between w-[80%] mx-auto py-6">
         <div className="">
           <a href="/">

@@ -8,7 +8,9 @@ import Service from "./components/Service/Service";
 import Skill from "./components/Skill/Skill";
 import Portfolio from "./components/Portfolio/Portfolio";
 import Header from "./Header";
-import Footer from './components/Footer/Footer'
+import Footer from "./components/Footer/Footer";
+import Faqs from "./components/FAQ/Faqs";
+import NotFound from './components/404/NotFound'
 
 export default function App() {
   return (
@@ -22,6 +24,8 @@ export default function App() {
             <Route path="/service" element={<Service />} />
             <Route path="/skill" element={<Skill />} />
             <Route path="/portfolio" element={<Portfolio />} />
+            <Route path="/faq" element={<Faqs />} />
+            <Route path="/notf" element={<NotFound />} />
           </Routes>
         </Header>
         <Footer />

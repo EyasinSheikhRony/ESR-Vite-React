@@ -25,9 +25,9 @@ export default function () {
 
   return (
     <div className="mt-52 max-[768px]:mt-2 pb-20 min-w-[320px] w-[80%] mx-auto">
-      <div className="flex max-[768px]:flex-col justify-between">
+      <div className="flex max-[1024px]:flex-col justify-between">
         {/* left side  */}
-        <div className="">
+        <div className=" max-[768px]:mt-28">
           <h1 className="text-xl min-[1440px]:text-2xl font-bold font-mono text-gray-500 mb-2 pt-40 max-[768px]:pt-2">
             Hello There,
           </h1>
@@ -48,6 +48,7 @@ export default function () {
             <a
               href="https://www.instagram.com/eyasin_sheikh_rony/"
               target="_blank"
+              className=""
               title="Instagram">
               <img
                 src="./image/social-icon/instagram.png"
@@ -99,7 +100,7 @@ export default function () {
           </div>
         </div>
         {/* right side  */}
-        <div className="max-[768px]:mt-20 flex justify-center ">
+        <div className="max-[1024px]:mt-20 flex justify-center ">
           <div className="profile_pic bg-gradient-to-b from bg-sky-300 to-sky-500 min-w-[300px] w-[500px] overflow-hidden">
             <img
               src="./image/Rony.png"

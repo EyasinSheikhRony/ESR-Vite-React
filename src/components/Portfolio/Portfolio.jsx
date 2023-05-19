@@ -5,7 +5,7 @@ export default function Portfolio() {
     <div className="mt-36 portfolio">
       <div className="">
         <h1 className="flex justify-center max-[768px]:text-5xl font-extrabold text-6xl bg-clip-text bg-gradient-to-r from-purple-600 to-orange-400 text-transparent max-[1024px]:text-6xl">
-          Porfolio
+          Portfolio
         </h1>
         <h2 className="flex justify-center font-bold pt-2 pb-6 text-2xl text-gray-600">
           Latest Projects
@@ -44,15 +44,15 @@ export default function Portfolio() {
           </div>
 
           <div className="min-w-[320px] rounded-2xl shadow-xl p-4 mr-4 mb-6  min-[1536px]:mr-0  min-[1536px]:ml-4 max-[768px]:mr-0 bg-gray-200">
-            <a href="#" title="Porfolio Website">
+            <a href="#" title="Portfolio Website">
               <img
                 src="./webpic/website04.jpg"
-                alt="Porfolio Website"
+                alt="Portfolio Website"
                 className=""
               />
             </a>
             <h1 className="text-2xl font-bold text-pink-600 mt-6 mb-2">
-              Porfolio Website
+              Portfolio Website
             </h1>
             <h1 className="text-sm font-bold text-gray-500">
               Portfolio Website Design & Development

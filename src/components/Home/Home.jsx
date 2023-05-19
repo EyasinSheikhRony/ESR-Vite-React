@@ -1,3 +1,4 @@
+// @ts-nocheck
 import React from "react";
 import Details from "../AdminDetails/Details";
 import About from "../About/About";
@@ -7,6 +8,7 @@ import Contact from "../Contact/Contact";
 import Testimonial from "../Testimonial/Testimonial";
 import Skill from "../Skill/Skill";
 import Pricing from "../Pricing/Pricing";
+// import Faqs from "../FAQ/Faqs";
 
 export default function Home() {
   return (
