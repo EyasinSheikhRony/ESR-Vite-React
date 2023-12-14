@@ -86,9 +86,9 @@ export default function Service() {
 
           <div className=" min-w-[320px] max-[1024px]:ml-4 bg-gradient-to-tr from-red-400 to-red-600 text-white p-4 rounded-lg ml-0 mt-4 mb-4 mr-4 flex justify-between items-center flex-col shadow-xl">
             <i className="fa-solid fa-laptop text-4xl"></i>
-            <h1 className="font-bold text-2xl mb-2">UI/UX DESIGNER</h1>
+            <h1 className="font-bold text-2xl mb-2">Webflow Developer</h1>
             <h2 className="font-semibold text-md">
-              I’m a UX/UI Designer who is passionate about making error-free
+              I’m a Webflow Developer who is passionate about making error-free
               websites with 100% client satisfaction.
             </h2>
             <a
